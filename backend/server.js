@@ -11,7 +11,7 @@ const app = express();
 connectDB();
 
 app.use(cors({ origin:["http://localhost:5173",
-    "https://notes-management-tau.vercel.app/"],
+    "https://notes-management-tau.vercel.app"],
     credentials: true
 }));
 app.use(express.json());
